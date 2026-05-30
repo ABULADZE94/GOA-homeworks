@@ -1,0 +1,26 @@
+es me-3       <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <article>        <h1>Welcome to Our Website</h1>   </article>
+
+    </header>
+
+    <main>
+        <div>
+            <h1>Ford Mustang</h1>
+            <img height="150" width="200" src="../../fordphoto.avif" alt="ford">
+            <p>this is a description of the Ford Mustang.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p> 2024 My Website. All rights reserved</p>
+    </footer>
+</body>
+</html> 
