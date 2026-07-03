@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flowers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Beautiful Roses</h1>
+    <h1 class="second">Lovely Sunflowers</h1>
+
+</body>
+</html>                                                                                                                                                                      h1 {
+    background-color: pink;
+    color: darkred;
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+.second {
+    background-color: lightyellow;
+    color: orange;
+    text-align: center;
+    border: 2px solid orange;
+    border-radius: 20px;
+} 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flowers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div>
+        <h1>Pink Peonies</h1>
+        <h1 class="red">Purple Irises</h1>
+    </div>
+
+</body>
+</html>                                                                                                                                                div {
+    color: blue;
+    background-color: lightpink;
+}
+
+.red {
+    color: red;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Div Tag Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Understanding the div Tag in HTML</h1>
+
+    <p>
+        The div tag is a container element used to group content together.
+        It's a commonly used tag for styling sections of a page.
+    </p>
+
+    <div class="box">First div tag with some content</div>
+    <div class="box">Second div tag, providing another example</div>
+    <div class="box">Third div tag demonstrating further usage</div>
+    <div class="box">Fourth div tag showing how to style multiple blocks</div>
+
+</body>
+</html>                                                                                                                                                     body {
+    background-color: #e9e9e9;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 15px;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+}
+
+.box {
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 12px;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}

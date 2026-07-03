@@ -1,0 +1,70 @@
+def avg(list):
+    if len(list)>0:
+        return sum(list)/len(list)
+    else:
+        return 0
+    
+listt = [1,2,3,4,5,6,7,8,9,10]
+print(avg(listt))
+
+
+
+
+
+def betterSum(list):
+    if len(list)>0:
+        return sum(list)
+    else:
+        return len(0)
+
+
+
+        def positiveSum(list):
+    count = 0
+    for i in list:
+        if i >=0:
+            count+=i
+    return count
+
+
+
+    carDetails = {
+    "color":"red",
+    "year":2019,
+    "model":"jeep",
+    "company":"unknown"
+}
+
+
+
+carDetails = {
+    "color":"red",
+    "year":2019,
+    "model":"jeep",
+    "company":"unknown"
+}
+
+for i in carDetails.values():
+    print(i)
+
+
+
+    carDetails = {
+    "color":"red",
+    "year":2019,
+    "model":"jeep",
+    "company":"unknown",
+    "isForSale":False,
+    "price":50000
+}
+
+
+
+
+dictionary = {
+    "type":"Fiat",
+    "model": 500,
+    "color": "white"
+}
+
+for i,y in dictionary.items():

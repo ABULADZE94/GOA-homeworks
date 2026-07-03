@@ -1,0 +1,25 @@
+/* linear-gradient/radial-gradient -> არის ფერის გადასვლის 2 საშუალება, linear აკეთებს ხაზობრივად, ხოლო რადიალი წრეებით/ოვალებით */
+div{
+    height: 200px;
+    width: 200px;
+}
+
+.div{
+    background: linear-gradient(to top right, red, blue, orange); 
+}
+
+.div2{
+    background: linear-gradient(to bottom left, cyan, blue, navy);
+}
+
+.div3{
+    background: linear-gradient(180deg, cyan, blue, navy, black, white);
+}
+
+.div4{
+    background: radial-gradient(circle at center, yellow, red);
+}
+
+.div5{
+    background: radial-gradient(ellipse at center, black, purple);
+}

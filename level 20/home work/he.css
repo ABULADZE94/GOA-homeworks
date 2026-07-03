@@ -1,0 +1,27 @@
+/*  text-align -> ტექსტის განლაგებას განაგებს ელემენტში
+     text-decoration-line -> ტექსტის დეკორაციას განაგებს
+     text-decoratin-color -> ტექსტის დეკორაციის ფერს განაგებს
+     text-decoration-style -> როგორ გამოიყურება ხაზი მას ცვლის
+     text-decoration -> შეგვიძლია ყველა ზედა property გავუწეროთ
+     მაგალითად:  text-decoration: underline wavy red 3px;
+     text-shadow -> ტექსტს უჩენს ჩრდილს, შეგვიძლია განვსაზღვროთ ჩრდილის დაშორება */
+
+
+    h1{
+        text-align: center;
+        text-decoration-line: line-through;
+        text-decoration-color:rebeccapurple ;
+        text-decoration-style:dashed ;
+        text-decoration:line-through wavy red 3px ;
+        text-shadow: 10px 10px 1.5px black;
+    }
+
+
+    p{
+        text-align: left;
+        text-decoration-line:overline;
+        text-decoration-color:antiquewhite ;
+        text-decoration-style:double ;
+        text-decoration:line-through solid salmon 3px ;
+        text-shadow: 20px 0px 2px black;
+    }

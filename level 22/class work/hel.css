@@ -1,0 +1,57 @@
+div {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    cursor: pointer;
+}
+
+div:hover {
+    background-color: yellow;
+    height: 100px;
+}
+
+div:active {
+    background-color: green;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+button:disabled {
+    color: red;
+}
+
+
+
+div {
+    height: 100px;
+    width: 120px;
+    background-color: rgb(43, 255, 0);
+    cursor: pointer;
+}
+
+div:hover {
+    background-color: yellow;
+    height: 50px;
+}
+
+div:active {
+    background-color: green;
+}
+
+a:link {
+    color: rgb(146, 132, 132);
+}
+
+a:visited {
+    color: rgb(149, 163, 149);
+}
+
+button:disabled {
+    color: rgb(32, 5, 5);
+}
